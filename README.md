@@ -1,6 +1,6 @@
 # NoxAeApi C++ SDK
 
-Official header-only C++17 SDK for the [NoxAeApi](https://github.com/NoxlyDev/NOXAPI-HUB) Minecraft REST API suite and Velocity Network Hub.
+Official header-only C++17 SDK for the NoxAeApi Minecraft REST API suite and Velocity Network Hub.
 
 ## Features
 
@@ -19,9 +19,8 @@ Official header-only C++17 SDK for the [NoxAeApi](https://github.com/NoxlyDev/NO
 include(FetchContent)
 FetchContent_Declare(
     noxaeapi-sdk-cpp
-    GIT_REPOSITORY https://github.com/NoxlyDev/NOXAPI-HUB.git
+    GIT_REPOSITORY https://github.com/wumx-labs/noxaeapi-sdk-cpp.git
     GIT_TAG        v0.7.0
-    SOURCE_SUBDIR  Library/noxaeapi-sdk-cpp
 )
 FetchContent_MakeAvailable(noxaeapi-sdk-cpp)
 
